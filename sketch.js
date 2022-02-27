@@ -5,11 +5,6 @@ function setup() {
   textureGraphic.background(0, 11, 19);
   textureGraphic.textSize(400);
   textureGraphic.text('😡', -75, 340);
-  
-  /*
-    frameRate(30);
-    createLoop({duration:5, gif:true}); 
-  */
 }
 
 function draw() {
