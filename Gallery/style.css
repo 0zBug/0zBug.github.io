@@ -1,0 +1,19 @@
+
+html,body {
+    margin: 0;
+    padding: 1%;
+    border: 0;
+    background-color: black;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.desc {
+    color: white;
+}
+
+.title {
+    color: white;
+}
