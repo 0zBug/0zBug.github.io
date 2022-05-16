@@ -1,19 +1,26 @@
 
-html,body {
-    margin: 0;
-    padding: 1%;
-    border: 0;
-    background-color: black;
+html, body {
+    height: 98%;
+    margin-left: 3px;
+    width: 100% - 3px;
+    font: 10px "Monaco", Inconsolata, monospace;
+    background: #031c29;
+    color: #f8f8f8;
 }
 
-.gallery {
-    text-align: center;
+a {
+    text-decoration: none;
+    color: #f8f8f8;
+}
+
+.break:before {
+    content: '>>';
+    color: #e1f148;
 }
 
 .desc {
-    color: white;
-}
-
-.title {
-    color: white;
+    margin-top: -5px;
+    margin-left: 45px;
+    font-size: 18px;
+    color: #f8f8f8;
 }
